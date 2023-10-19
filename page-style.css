@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/*page header*/
+.logo {
+    width: 60%;
+}
+
+.header-content {
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header-item {
+  display:inline-block;
+  margin-right: 3rem;
+}
+
+.header-name-and-logo {
+    flex-basis: 50%;
+}
+
+.header-menu {
+    flex-basis: 50%;
+}
+
+/*page main*/
+.main-books-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 4rem;
+}
+
+/*books*/
+.book {
+  flex-basis: 25%;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.book-img {
+  width: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+}
+
+.book-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.book-author {
+  margin: 10px 0;
+}
+
+.book-illustrator {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/*page footer*/
+.footer-content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #100F0D;
+  color: white;
+}
+
+.list-out {
+  list-style: none;
+}
+
+.list-out li {
+  margin-bottom: 10px;
+}
